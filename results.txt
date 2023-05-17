@@ -1,0 +1,98 @@
+AVERAGE TIME TO FILL STRUCTURES WITH 1000 VALUES:
+
+TREE
+nanoseconds: 318485 ns
+microseconds: 318 ms
+milliseconds: 0 mls
+seconds: 0 sec
+
+VECTOR
+nanoseconds: 159643 ns
+microseconds: 159 ms
+milliseconds: 0 mls
+seconds: 0 sec
+
+Fill time comparison:
+Execution time for VECTOR structure is FASTER
+
+AVERAGE TIME TO FILL STRUCTURES WITH 10000 VALUES:
+
+TREE
+nanoseconds: 4022297 ns
+microseconds: 4022 ms
+milliseconds: 4 mls
+seconds: 0 sec
+
+VECTOR
+nanoseconds: 1305249 ns
+microseconds: 1305 ms
+milliseconds: 1 mls
+seconds: 0 sec
+
+Fill time comparison:
+Execution time for VECTOR structure is FASTER
+
+AVERAGE TIME TO FILL STRUCTURES WITH 100000 VALUES:
+
+TREE
+nanoseconds: 94082286 ns
+microseconds: 94082 ms
+milliseconds: 94 mls
+seconds: 0 sec
+
+VECTOR
+nanoseconds: 16936022 ns
+microseconds: 16936 ms
+milliseconds: 16 mls
+seconds: 0 sec
+
+Fill time comparison:
+Execution time for VECTOR structure is FASTER
+
+AVERAGE LOOKUP TIME IN A STRUCTURES WITH 1000 VALUES:
+Tree - 0
+Vector - 1
+Execution time for TREE structure is FASTER
+
+AVERAGE TIME TO REMOVE A RANDOM VALUE IN A STRUCTURES WITH 1000 VALUES:
+Tree - 943
+Vector - 11867
+Execution time for TREE structure is FASTER
+
+AVERAGE TIME TO ADD A RANDOM VALUE IN A STRUCTURES WITH 1000 VALUES:
+Tree - 1216
+Vector - 362
+Execution time for VECTOR structure is FASTER
+1000
+
+AVERAGE LOOKUP TIME IN A STRUCTURES WITH 10000 VALUES:
+Tree - 0
+Vector - 1
+Execution time for TREE structure is FASTER
+
+AVERAGE TIME TO REMOVE A RANDOM VALUE IN A STRUCTURES WITH 10000 VALUES:
+Tree - 1830
+Vector - 11956
+Execution time for TREE structure is FASTER
+
+AVERAGE TIME TO ADD A RANDOM VALUE IN A STRUCTURES WITH 10000 VALUES:
+Tree - 644
+Vector - 415
+Execution time for VECTOR structure is FASTER
+1000
+
+AVERAGE LOOKUP TIME IN A STRUCTURES WITH 100000 VALUES:
+Tree - 0
+Vector - 0
+Execution time is the SAME
+
+AVERAGE TIME TO REMOVE A RANDOM VALUE IN A STRUCTURES WITH 100000 VALUES:
+Tree - 2427
+Vector - 11596
+Execution time for TREE structure is FASTER
+
+AVERAGE TIME TO ADD A RANDOM VALUE IN A STRUCTURES WITH 100000 VALUES:
+Tree - 657
+Vector - 339
+Execution time for VECTOR structure is FASTER
+1000
