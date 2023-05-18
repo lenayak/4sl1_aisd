@@ -69,7 +69,6 @@ public:
 			root = nullptr;
 		}
 		copy(object.root);
-		//Node* tmp = object.root;
 	}
 	~Tree()
 	{
@@ -367,4 +366,19 @@ int main()
 		tree.clear();
 		v.clear();
 	}
+
+	Tree a(15);
+	a.insert(4);
+	a.insert(30);
+	a.insert(20);
+	a.insert(8);
+	cout << "TREE A:" << endl << endl;
+	a.print();
+	cout << endl << endl << "Check 7?    (0 = no, 1 = yes)\n" << a.contains(7);
+	cout << endl << "Check 4?    (0 = no, 1 = yes)\n" << a.contains(4) << endl << endl;
+	a.erase(15);
+	Tree b = a;
+	b.print();
+	b.insert(8);
+	a.clear();
 }
